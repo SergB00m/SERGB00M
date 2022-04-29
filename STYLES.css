@@ -21,6 +21,11 @@ body {
       width: 100%;
       width: 650px;
       font-size: 18;
+      display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
   }
   th {
     border: 1px solid white;
@@ -37,3 +42,20 @@ body {
    A:active {
     color: #ffff00;
    }
+   img {
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 1000px) {
+  nav {  width: 100%; }
+  .block { width: 35%;}
+}
+@media only screen and (max-width: 600px) {
+  .block {
+         float:none;
+         width:85%;
+         margin: 1em auto;
+          }
+  } 
+  header, nav, section, article, aside, footer {display:block;}
+  
