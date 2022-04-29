@@ -1,0 +1,39 @@
+body {
+    background-image: url(assassins-creed-ecio-auditore-mass-effect-shepard-hitman-diablo-3-crysis-batman-arkham-city-bryus-uejn-vedmak.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 20;
+    line-height: 1.5;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+.blur
+{
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px); 
+    position: fixed;
+   left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: -1;
+  }
+  table {
+      border: 1px solid white;
+      width: 100%;
+      width: 650px;
+      font-size: 18;
+  }
+  th {
+    border: 1px solid white;
+  }
+  td {
+    border: 1px solid white;
+  }
+  A {
+    color: red;
+   }
+   A:visited {
+    color: #cecece;
+   }
+   A:active {
+    color: #ffff00;
+   }
